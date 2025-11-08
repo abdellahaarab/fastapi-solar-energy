@@ -39,10 +39,14 @@ renewable-energy-api/
 
 ### Endpoint
 
-```
-GET /
+| Feature                    | Description                                      |
+| -------------------------- | ------------------------------------------------ |
+| `/`                        | Welcome route listing available endpoints        |
+| `/list`                    | Lists all available renewable energy types       |
+| `/energy/{type}`           | Fetch detailed info (e.g., `/energy/solar`)      |
+| `/compare/{type1}/{type2}` | Compare advantages between two energy types      |
+| `ENERGY_DATA`              | Expanded dictionary with **5 renewable sources** |
 
-```
 
 ### Response JSON
 
